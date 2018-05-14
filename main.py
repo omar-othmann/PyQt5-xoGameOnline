@@ -12,7 +12,6 @@ import threading
 import os
 import sys
 import time
-from socketIO_client import SocketIO, LoggingNamespace
 
 scriptDir = os.path.dirname(os.path.realpath(__file__))
 FROM_MAIN,_ = loadUiType(os.path.join(os.path.dirname(__file__),"main.ui"))
